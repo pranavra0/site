@@ -13,7 +13,7 @@ This was for my software engineering capstone project. I was frustrated with how
 
 It was definitely much harder than I initially assumed, but it illustrates how orchestrators work and serves as a solid system for very small-scale projects.
 
-### Interface Preview
+### Screenshots
 
 ![Home View](/assets/orchestrator/1.png)
 *The main container management view*
