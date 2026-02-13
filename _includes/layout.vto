@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description || summary || title }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description || summary || title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Pranav Rao">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description || summary || title }}">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    {{ content }}
+</body>
+</html>
