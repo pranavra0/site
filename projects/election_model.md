@@ -2,7 +2,7 @@
 layout: project_view.vto
 type: project
 title: 2024 Election Model
-subtitle: A state-level Monte Carlo election forecast.
+subtitle: A Monte Carlo election forecast.
 tags: [R, Selenium]
 links:
   - text: View on GitHub
