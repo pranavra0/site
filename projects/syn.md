@@ -11,7 +11,3 @@ links:
 
 A model that ended up winning in the pose detection category of the Charlotte AI Research Hackathon. It was able to detect ASL alphabetical signs to a high degree of accuracy even in poor video conditions.
 
-### Project Highlights
-* Featured a fully fledged account and login system
-* Built with Tailwind CSS
-* MediaPipe driven pose detection for real-time tracking
