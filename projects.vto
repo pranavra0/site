@@ -1,0 +1,20 @@
+---
+layout: layout.vto
+title: Projects
+templateEngine: vto, md
+---
+
+<h1 class="mb-3 dropshadow lowercase">projects</h1>
+
+<div class="projects-grid">
+  {{ for project of search.pages("type=project") }}
+  <a href="{{ project.url }}" class="project-card">
+      <h4>{{ project.title }}</h4>
+      <div class="tagline">{{ project.subtitle }}</div>
+      <div class="tags">{{ project.tags.join(" / ") }}</div>
+      <div class="card-fade">
+        <span>view project &rarr;</span>
+      </div>
+  </a>
+  {{ /for }}
+</div>

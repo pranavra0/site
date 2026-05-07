@@ -5,10 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="view-transition" content="same-origin" />
   <title>{{ title }}</title>
-  <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  {{ content }}
+  <div class="page-wrapper">
+    <header>
+      <nav>
+        <a href="/" class="{{ if url == '/' }}active{{ /if }}">home</a>
+        <a href="/projects/" class="{{ if url == '/projects/' || url.startsWith('/projects/') }}active{{ /if }}">projects</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <div class="footer-name">PP</div>
+    </footer>
+  </div>
 </body>
 </html>
